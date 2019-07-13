@@ -1,0 +1,32 @@
+>Where's The TRUFT?
+'past': PAFT
+'castle': KAFL
+'stressed': STREFD
+'pressed': PREFD
+'passed': PAFD
+'test': TEFT
+'tussle': TUFL
+'crossed': KROFD
+>Dropping Unstressed Vowels
+'several': SEFRL
+'suppress': SPRES
+'averages': AFRGS
+'tablet': TABLT
+'tepid': TEPD
+'superb': SPERB
+'scaffold': SKAFLD
+'scarlet': SKARLT
+'starlet': STARLT
+'started': STARTD
+'ruffled': RUFLD
+'scuffled': SKUFLD
+'corrupted': KRUPTD
+'spotted': SPOTD
+'horrible': HORBL
+'effort': EFRT
+>Inversion
+'edit': ETD
+'elves': EFLS
+'twelve': TWEFL
+'credit': KRETD
+'portal': PORLT

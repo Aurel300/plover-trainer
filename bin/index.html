@@ -1,0 +1,124 @@
+<!DOCTYPE html><html><head>
+	<title>FTLearn</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+</head><body>
+	<main>
+		<div id="status"></div>
+		<div id="prompt"></div>
+		<div id="timer"></div>
+		<table id="hint">
+			<tbody>
+				<tr>
+					<td rowspan="2" data-steno="0">S</td>
+					<td data-steno="1">T</td>
+					<td data-steno="3">P</td>
+					<td data-steno="5">H</td>
+					<td colspan="2" rowspan="2" class="skip"></td>
+					<td rowspan="2" data-steno="9">*</td>
+					<td data-steno="12">F</td>
+					<td data-steno="14">P</td>
+					<td data-steno="16">L</td>
+					<td data-steno="18">T</td>
+					<td data-steno="20">D</td>
+				</tr><tr>
+					<td data-steno="2">K</td>
+					<td data-steno="4">W</td>
+					<td data-steno="6">R</td>
+					<td data-steno="13">R</td>
+					<td data-steno="15">B</td>
+					<td data-steno="17">G</td>
+					<td data-steno="19">S</td>
+					<td data-steno="21">Z</td>
+				</tr><tr>
+					<td class="skip">&nbsp;</td>
+				</tr><tr>
+					<td colspan="3" class="skip"></td>
+					<td data-steno="7">A</td>
+					<td data-steno="8">O</td>
+					<td colspan="1" class="skip"></td>
+					<td data-steno="10">E</td>
+					<td data-steno="11">U</td>
+				</tr><tr>
+					<td colspan="3" class="skip"></td>
+					<td class="vowel-extra vowel-extra-f"></td>
+					<td class="vowel-extra vowel-extra-f"></td>
+					<td class="vowel-extra vowel-extra-f"></td>
+					<td class="vowel-extra vowel-extra-t"></td>
+					<td class="vowel-extra vowel-extra-t"></td>
+					<td colspan="2" class="vowel-extra vowel-extra-main">i</td>
+				</tr><tr>
+					<td colspan="3" class="skip"></td>
+					<td class="vowel-extra vowel-extra-t"></td>
+					<td class="vowel-extra vowel-extra-f"></td>
+					<td class="vowel-extra vowel-extra-f"></td>
+					<td class="vowel-extra vowel-extra-t"></td>
+					<td class="vowel-extra vowel-extra-t"></td>
+					<td colspan="2" class="vowel-extra vowel-extra-main">ej</td>
+				</tr><tr>
+					<td colspan="3" class="skip"></td>
+					<td class="vowel-extra vowel-extra-t"></td>
+					<td class="vowel-extra vowel-extra-t"></td>
+					<td class="vowel-extra vowel-extra-f"></td>
+					<td class="vowel-extra vowel-extra-t"></td>
+					<td class="vowel-extra vowel-extra-f"></td>
+					<td colspan="2" class="vowel-extra vowel-extra-main">í</td>
+				</tr><tr>
+					<td colspan="3" class="skip"></td>
+					<td class="vowel-extra vowel-extra-t"></td>
+					<td class="vowel-extra vowel-extra-t"></td>
+					<td class="vowel-extra vowel-extra-f"></td>
+					<td class="vowel-extra vowel-extra-t"></td>
+					<td class="vowel-extra vowel-extra-t"></td>
+					<td colspan="2" class="vowel-extra vowel-extra-main">aj</td>
+				</tr><tr>
+					<td colspan="3" class="skip"></td>
+					<td class="vowel-extra vowel-extra-f"></td>
+					<td class="vowel-extra vowel-extra-t"></td>
+					<td class="vowel-extra vowel-extra-f"></td>
+					<td class="vowel-extra vowel-extra-t"></td>
+					<td class="vowel-extra vowel-extra-f"></td>
+					<td colspan="2" class="vowel-extra vowel-extra-main">ou</td>
+				</tr><tr>
+					<td colspan="3" class="skip"></td>
+					<td class="vowel-extra vowel-extra-t"></td>
+					<td class="vowel-extra vowel-extra-t"></td>
+					<td class="vowel-extra vowel-extra-f"></td>
+					<td class="vowel-extra vowel-extra-f"></td>
+					<td class="vowel-extra vowel-extra-t"></td>
+					<td colspan="2" class="vowel-extra vowel-extra-main">(j)ú</td>
+				</tr><tr>
+					<td colspan="3" class="skip"></td>
+					<td class="vowel-extra vowel-extra-t"></td>
+					<td class="vowel-extra vowel-extra-f"></td>
+					<td class="vowel-extra vowel-extra-f"></td>
+					<td class="vowel-extra vowel-extra-f"></td>
+					<td class="vowel-extra vowel-extra-t"></td>
+					<td colspan="2" class="vowel-extra vowel-extra-main">ó [aw]</td>
+				</tr><tr>
+					<td colspan="3" class="skip"></td>
+					<td class="vowel-extra vowel-extra-f"></td>
+					<td class="vowel-extra vowel-extra-t"></td>
+					<td class="vowel-extra vowel-extra-f"></td>
+					<td class="vowel-extra vowel-extra-f"></td>
+					<td class="vowel-extra vowel-extra-t"></td>
+					<td colspan="2" class="vowel-extra vowel-extra-main">au [ow]</td>
+				</tr><tr>
+					<td colspan="3" class="skip"></td>
+					<td class="vowel-extra vowel-extra-f"></td>
+					<td class="vowel-extra vowel-extra-t"></td>
+					<td class="vowel-extra vowel-extra-f"></td>
+					<td class="vowel-extra vowel-extra-t"></td>
+					<td class="vowel-extra vowel-extra-t"></td>
+					<td colspan="2" class="vowel-extra vowel-extra-main">oj [oi]</td>
+				</tr>
+			</tbody>
+		</table>
+		<input id="answer" autofocus>
+		<div id="controls"><a id="controls-skip">Skip word</a> | <a id="controls-none">No groups</a> | <a id="controls-all">All groups</a></div>
+		<div id="lesson-select"></div>
+	</main><footer>
+		<a href="https://github.com/Aurel300/plover-trainer" target="_blank">plover-trainer</a> by Aurel Bílý.
+	</footer>
+	<script src="client.js"></script>
+</body></html>
